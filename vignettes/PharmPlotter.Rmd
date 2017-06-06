@@ -1,0 +1,25 @@
+---
+title: "PharmPlotter: exploring the consistency of drug response between the CCLE and the GDSE projects"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+First, we load the package into the working R session and
+load the summarizedData into the working session. 
+
+```{r loadData}
+library(PharmPlotter)
+data("summarizedData")
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure}
+plotAUCConsistency( data=summarizedData, drugName="AZD0530")
+```
+

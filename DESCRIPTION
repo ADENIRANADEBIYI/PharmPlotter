@@ -1,0 +1,18 @@
+Package: PharmPlotter
+Type: Package
+Title: Template of an R package for students of the summer school Juriquilla 2017
+Version: 0.1.0
+Author: Alejandro Reyes
+Maintainer: Alejandro Reyes <alejandro.reyes.ds@gmail.com>
+Description: This package serves for two purposes. First, 
+  it is intended to serve as a template of the basic structure 
+  of an R package for the students of the summer school in 
+  Juriquilla. Second, it contains two data frames with pharmacogenomic 
+  data downloaded from the package PharmacoGx and reformatted into a data
+  frame. It also a function to plot and evaluate cell line response 
+  measurements between the CCLE nd GDSE projects.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+VignetteBuilder: knitr
+RoxygenNote: 6.0.1
